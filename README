@@ -1,2 +1,12 @@
 More information here:
 http://luckytoilet.wordpress.com/2012/12/23/2125/
+
+I posted the source code for entertainment purposes only, and I never seriously intended it to be compiled and run on another machine. Nevertheless, if you intend to run this on your own computer:
+
+1. Make sure ScreenWidth, ScreenHeight, TOT_MINES are correct
+2. Make the game window as big as you can. Try maximizing it.
+3. Be sure that the entire game window is visible 2 seconds after it starts.
+
+The calibration routine looks for intersections of dark lines, and if the resolution is too small, the lines change to a grayish color and you'll get "Calibration failed".
+
+Detection is tricky and doesn't have a 100% success rate on my machine either. If it still doesn't work, you're out of luck xD
