@@ -901,7 +901,7 @@ public class MSolver{
         int surround = 0;
         if((i==0&&j==0) || (i==BoardHeight-1 && j==BoardWidth-1))
           surround = 3;
-        if(i==0 || j==0 || i==BoardHeight-1 || j==BoardWidth-1)
+        else if(i==0 || j==0 || i==BoardHeight-1 || j==BoardWidth-1)
           surround = 5;
         else surround = 8;
 
